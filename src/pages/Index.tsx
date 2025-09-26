@@ -200,7 +200,7 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <Icon name="Phone" size={20} className="text-primary" />
-                  <span className="text-lg font-medium">+7 918 607 39 8</span>
+                  <span className="text-lg font-medium">+7 918 607 39 89</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Icon name="Clock" size={20} className="text-primary" />
@@ -308,7 +308,7 @@ const Index = () => {
             <div>
               <h4 className="text-lg font-medium mb-4">Контакты</h4>
               <div className="space-y-2 text-gray-300">
-                <p>Телефон: +7 918 607 39 8</p>
+                <p>Телефон: +7 918 607 39 89</p>
                 <p>Email: info@company.ru</p>
                 <p>Работаем: 24/7</p>
               </div>
