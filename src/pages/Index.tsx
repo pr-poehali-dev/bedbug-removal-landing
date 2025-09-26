@@ -299,7 +299,7 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4">НазваниеКомпании</h3>
+              <h3 className="text-2xl font-bold mb-4">СЭС МСК</h3>
               <p className="text-gray-300 leading-relaxed">
                 Профессиональное уничтожение клопов с гарантией качества. 
                 Работаем быстро, эффективно и безопасно.
@@ -324,7 +324,7 @@ const Index = () => {
           </div>
           <Separator className="my-8 bg-gray-600" />
           <div className="text-center text-gray-400">
-            <p>&copy; 2024 НазваниеКомпании. Все права защищены.</p>
+            <p>&copy; 2024 СЭС МСК. Все права защищены.</p>
           </div>
         </div>
       </footer>
