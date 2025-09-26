@@ -309,7 +309,7 @@ const Index = () => {
               <h4 className="text-lg font-medium mb-4">Контакты</h4>
               <div className="space-y-2 text-gray-300">
                 <p>Телефон: +7 918 607 39 89</p>
-                <p>Email: info@company.ru</p>
+                <p>Email: andrey817718@gmail.com</p>
                 <p>Работаем: 24/7</p>
               </div>
             </div>
