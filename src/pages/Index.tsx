@@ -113,8 +113,8 @@ const Index = () => {
             </div>
             <div className="relative">
               <img 
-                src="/img/92486ad3-0ded-4b63-9b7c-4bcbb659393c.jpg" 
-                alt="Безопасный дом после обработки от клопов"
+                src="https://cdn.poehali.dev/files/84c1f85f-8e1a-4f60-8f86-690f19158002.jpg" 
+                alt="Профессиональная дезинсекция - уничтожение клопов, тараканов и блох"
                 className="rounded-2xl shadow-2xl w-full h-auto"
               />
             </div>
