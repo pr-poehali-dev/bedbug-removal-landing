@@ -55,7 +55,7 @@ def handler(event: Dict[str, Any], context: Any) -> Dict[str, Any]:
     
     # Получение настроек Telegram
     bot_token = os.environ.get('TELEGRAM_BOT_TOKEN')
-    chat_id = os.environ.get('TELEGRAM_CHAT_ID')
+    chat_id = os.environ.get('TELEGRAM_GROUP_CHAT_ID')
     
     if not bot_token or not chat_id:
         return {
