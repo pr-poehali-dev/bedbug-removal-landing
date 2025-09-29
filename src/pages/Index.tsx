@@ -15,10 +15,29 @@ const Index = () => {
     message: ""
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Форма отправлена:", formData);
-    // Здесь будет обработка отправки формы
+    
+    try {
+      const response = await fetch('https://functions.poehali.dev/87fb0165-0679-4f54-83ec-57c9610b3028', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData)
+      });
+      
+      const result = await response.json();
+      
+      if (response.ok && result.success) {
+        alert('Заявка отправлена! Мы свяжемся с вами в ближайшее время.');
+        setFormData({ name: "", phone: "", address: "", message: "" });
+      } else {
+        alert('Ошибка отправки заявки. Попробуйте позвонить нам: +7 918 607 39 89');
+      }
+    } catch (error) {
+      alert('Ошибка отправки заявки. Попробуйте позвонить нам: +7 918 607 39 89');
+    }
   };
 
   const services = [
