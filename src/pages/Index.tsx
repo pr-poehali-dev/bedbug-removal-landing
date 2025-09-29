@@ -205,16 +205,14 @@ const Index = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="bg-white rounded-lg overflow-hidden">
+                <div className="bg-white rounded-lg">
                   <iframe 
-                    src="https://forms.yandex.ru/cloud/68dac8ca90fa7b0c90975846/?iframe=1"
+                    src="https://forms.yandex.ru/cloud/68dac8ca90fa7b0c90975846/"
                     width="100%" 
-                    height="550"
+                    height="650"
                     frameBorder="0"
-                    scrolling="auto"
-                    className="rounded-lg"
+                    className="rounded-lg w-full"
                     title="Форма заявки СЭС"
-                    style={{ minHeight: '550px' }}
                   ></iframe>
                 </div>
                 <p className="text-xs text-gray-500 text-center mt-4">
