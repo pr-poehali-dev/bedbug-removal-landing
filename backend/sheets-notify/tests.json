@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Test OPTIONS request",
-      "method": "OPTIONS",
+      "method": "OPTIONS", 
       "path": "/",
       "expectedStatus": 200
     },
@@ -11,10 +11,10 @@
       "method": "POST",
       "path": "/",
       "body": {
-        "name": "Тест Клиент",
+        "name": "Иван Тестов",
         "phone": "+7 999 123 45 67",
-        "address": "ул. Тестовая, д. 1",
-        "message": "Проблема с клопами"
+        "address": "ул. Примерная, д. 5",
+        "message": "Нужна обработка от клопов"
       },
       "expectedStatus": 200,
       "expectedBody": {

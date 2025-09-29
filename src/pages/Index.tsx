@@ -19,7 +19,7 @@ const Index = () => {
     e.preventDefault();
     
     try {
-      const response = await fetch('https://functions.poehali.dev/87fb0165-0679-4f54-83ec-57c9610b3028', {
+      const response = await fetch('https://functions.poehali.dev/a71dcf7d-8904-4ca0-a721-3b718316b00e', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
