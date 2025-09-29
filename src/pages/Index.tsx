@@ -1,44 +1,9 @@
-import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import Icon from "@/components/ui/icon";
-import { useState } from "react";
 
 const Index = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    phone: "",
-    address: "",
-    message: ""
-  });
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    
-    try {
-      const response = await fetch('https://functions.poehali.dev/467ea86d-3a18-4d2f-955b-65dfba964eb3', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData)
-      });
-      
-      const result = await response.json();
-      
-      if (response.ok && result.success) {
-        alert('✅ Заявка отправлена! Мы свяжемся с вами в течение 10 минут.');
-        setFormData({ name: "", phone: "", address: "", message: "" });
-      } else {
-        alert('❌ Ошибка отправки. Позвоните нам: +7 918 607 39 89');
-      }
-    } catch (error) {
-      alert('❌ Ошибка соединения. Позвоните нам: +7 918 607 39 89');
-    }
-  };
 
   const services = [
     {
@@ -239,50 +204,19 @@ const Index = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <form onSubmit={handleSubmit} className="space-y-4">
-                  <div>
-                    <Input
-                      placeholder="Ваше имя"
-                      value={formData.name}
-                      onChange={(e) => setFormData({...formData, name: e.target.value})}
-                      required
-                    />
-                  </div>
-                  <div>
-                    <Input
-                      placeholder="Номер телефона"
-                      type="tel"
-                      value={formData.phone}
-                      onChange={(e) => setFormData({...formData, phone: e.target.value})}
-                      required
-                    />
-                  </div>
-                  <div>
-                    <Input
-                      placeholder="Адрес обработки"
-                      value={formData.address}
-                      onChange={(e) => setFormData({...formData, address: e.target.value})}
-                      required
-                    />
-                  </div>
-                  <div>
-                    <Textarea
-                      placeholder="Опишите проблему (необязательно)"
-                      value={formData.message}
-                      onChange={(e) => setFormData({...formData, message: e.target.value})}
-                      rows={3}
-                    />
-                  </div>
-                  <Button 
-                    type="submit" 
-                    className="w-full bg-primary hover:bg-primary/90 text-white py-3 text-lg font-medium"
-                  >
-                    Отправить заявку
-                  </Button>
-                  <p className="text-xs text-gray-500 text-center">
-                    Нажимая кнопку, вы соглашаетесь с обработкой персональных данных
-                  </p>
-                </form>
+                <div className="bg-white rounded-lg">
+                  <iframe 
+                    src="https://forms.yandex.ru/cloud/FORM_ID/"
+                    width="100%" 
+                    height="400"
+                    frameBorder="0"
+                    className="rounded-lg"
+                    title="Форма заявки СЭС"
+                  ></iframe>
+                </div>
+                <p className="text-xs text-gray-500 text-center mt-4">
+                  Нажимая кнопку, вы соглашаетесь с обработкой персональных данных
+                </p>
               </CardContent>
             </Card>
           </div>
