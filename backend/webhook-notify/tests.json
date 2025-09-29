@@ -1,0 +1,26 @@
+{
+  "tests": [
+    {
+      "name": "Test OPTIONS request",
+      "method": "OPTIONS",
+      "path": "/",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Test valid form submission",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "name": "Тест Клиент",
+        "phone": "+7 999 123 45 67",
+        "address": "ул. Тестовая, д. 10",
+        "message": "Срочно нужна обработка от клопов"
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "success": true
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
