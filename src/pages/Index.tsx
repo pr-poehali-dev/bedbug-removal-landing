@@ -85,13 +85,13 @@ const Index = () => {
                 Безопасные методы для вашей семьи, детей и домашних животных.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button 
-                  size="lg" 
-                  className="bg-primary hover:bg-primary/90 text-white px-8 py-4 text-lg font-medium"
+                <a 
+                  href="tel:+79186073989"
+                  className="bg-primary hover:bg-primary/90 text-white px-8 py-4 text-lg font-medium rounded-lg inline-flex items-center justify-center transition-colors"
                 >
                   <Icon name="Phone" size={20} className="mr-2" />
                   Вызвать специалиста
-                </Button>
+                </a>
                 <Button 
                   variant="outline" 
                   size="lg"
