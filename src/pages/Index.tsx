@@ -207,7 +207,7 @@ const Index = () => {
               <CardContent>
                 <div className="bg-white rounded-lg">
                   <iframe 
-                    src="https://forms.yandex.ru/cloud/FORM_ID/"
+                    src="https://forms.yandex.ru/cloud/68dac8ca90fa7b0c90975846/"
                     width="100%" 
                     height="400"
                     frameBorder="0"
