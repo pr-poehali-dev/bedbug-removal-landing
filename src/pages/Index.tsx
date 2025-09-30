@@ -141,7 +141,7 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-4">
-              Наши преимущества
+              Профессиональная дезинсекция в Москве
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Используем современные технологии и проверенные методы для полного избавления от всех видов насекомых
@@ -172,7 +172,7 @@ const Index = () => {
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-4">
-              Прозрачные цены
+              Цены на уничтожение клопов и тараканов
             </h2>
             <p className="text-lg text-gray-600">
               Фиксированная стоимость без скрытых платежей
@@ -209,10 +209,10 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-6">
-                Оставьте заявку
+                Заказать обработку от клопов в Москве
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Специалист свяжется с вами в течение 10 минут для уточнения деталей и назначения времени выезда
+                Специалист СЭС свяжется с вами в течение 10 минут для уточнения деталей и назначения времени выезда
               </p>
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
@@ -262,10 +262,10 @@ const Index = () => {
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-4">
-              Частые вопросы
+              Частые вопросы о дезинсекции
             </h2>
             <p className="text-lg text-gray-600">
-              Ответы на самые популярные вопросы о нашей услуге
+              Ответы на популярные вопросы об уничтожении клопов, тараканов и других насекомых
             </p>
           </div>
           <div className="space-y-6">
