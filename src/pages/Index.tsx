@@ -194,7 +194,10 @@ const Index = () => {
             ))}
           </div>
           <div className="text-center mt-8">
-            <Button className="bg-primary hover:bg-primary/90 text-white px-8 py-3">
+            <Button 
+              className="bg-primary hover:bg-primary/90 text-white px-8 py-3"
+              onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Получить точный расчет
             </Button>
           </div>
