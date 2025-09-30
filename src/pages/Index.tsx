@@ -205,37 +205,17 @@ const Index = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <form className="space-y-4">
-                  <div>
-                    <input 
-                      type="text" 
-                      placeholder="Ваше имя" 
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <input 
-                      type="tel" 
-                      placeholder="Телефон" 
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <textarea 
-                      placeholder="Опишите проблему (необязательно)" 
-                      rows={3}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary resize-none"
-                    ></textarea>
-                  </div>
-                  <button 
-                    type="submit"
-                    className="w-full bg-primary text-white py-3 rounded-lg font-semibold hover:bg-primary/90 transition-colors"
-                  >
-                    Получить скидку 10%
-                  </button>
-                </form>
+                <div className="bg-white rounded-lg">
+                  <iframe 
+                    src="https://forms.yandex.ru/cloud/68dac8ca90fa7b0c90975846/?iframe=1"
+                    width="100%" 
+                    height="700"
+                    frameBorder="0"
+                    scrolling="no"
+                    className="rounded-lg w-full"
+                    title="Форма заявки СЭС"
+                  ></iframe>
+                </div>
                 <p className="text-xs text-gray-500 text-center mt-4">
                   Нажимая кнопку, вы соглашаетесь с обработкой персональных данных
                 </p>
