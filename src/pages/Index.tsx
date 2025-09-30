@@ -69,31 +69,29 @@ const Index = () => {
                 Профессиональное уничтожение клопов, тараканов и блох с гарантией до 3-х лет. 
                 Безопасные методы для вашей семьи, детей и домашних животных.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-3">
                 <a 
                   href="tel:+79186073989"
-                  className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 text-lg font-medium rounded-lg inline-flex items-center justify-center transition-colors"
+                  className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 text-base font-medium rounded-lg inline-flex items-center justify-center transition-colors"
                 >
-                  <Icon name="Phone" size={20} className="mr-2" />
+                  <Icon name="Phone" size={18} className="mr-2" />
                   Экстренный вызов
                 </a>
                 <Button 
                   variant="outline" 
                   size="lg"
-                  className="border-white text-white hover:bg-white hover:text-secondary px-8 py-4 text-lg"
+                  className="border-white text-white hover:bg-white hover:text-secondary px-6 py-3 text-base"
                   onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
                 >
                   Рассчитать стоимость
                 </Button>
-              </div>
-              <div className="flex items-center gap-4">
                 <a 
                   href="https://wa.me/79186073989" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg transition-colors font-medium"
+                  className="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg transition-colors font-medium text-base"
                 >
-                  <Icon name="MessageCircle" size={20} />
+                  <Icon name="MessageCircle" size={18} />
                   WhatsApp
                 </a>
               </div>
