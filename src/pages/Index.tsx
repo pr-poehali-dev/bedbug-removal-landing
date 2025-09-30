@@ -97,14 +97,15 @@ const Index = () => {
                   <Icon name="Phone" size={18} className="mr-2" />
                   Экстренный вызов
                 </a>
-                <Button 
-                  variant="outline" 
-                  size="lg"
-                  className="border-white text-white hover:bg-white hover:text-secondary px-6 py-3 text-base"
-                  onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
+                <a 
+                  href="https://t.me/sova817"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="border-2 border-white text-white hover:bg-white hover:text-secondary px-6 py-3 text-base font-medium rounded-lg inline-flex items-center justify-center transition-colors"
                 >
+                  <Icon name="Send" size={18} className="mr-2" />
                   Рассчитать стоимость
-                </Button>
+                </a>
                 <a 
                   href="https://wa.me/79186073989" 
                   target="_blank" 
