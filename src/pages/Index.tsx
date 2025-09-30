@@ -101,10 +101,10 @@ const Index = () => {
                   href="https://t.me/sova817"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="border-2 border-white text-white hover:bg-white hover:text-secondary px-6 py-3 text-base font-medium rounded-lg inline-flex items-center justify-center transition-colors"
+                  className="bg-[#0088cc] hover:bg-[#006699] text-white px-6 py-3 text-base font-medium rounded-lg inline-flex items-center justify-center transition-colors"
                 >
                   <Icon name="Send" size={18} className="mr-2" />
-                  Рассчитать стоимость
+                  Telegram
                 </a>
                 <a 
                   href="https://wa.me/79186073989" 
