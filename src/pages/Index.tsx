@@ -59,7 +59,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <Badge className="bg-primary text-white text-sm font-medium px-4 py-2">
-                Экстренный вызов 24/7
+                Экстренный вызов 24/7: +7 (918) 607-39-89
               </Badge>
               <h1 className="text-4xl md:text-5xl font-bold leading-tight">
                 Решаем проблему клопов, тараканов и блох
